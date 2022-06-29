@@ -8107,11 +8107,9 @@ select.form-control-sm {
         -ms-flex-align: center;
         align-items: center;
         text-align: center;
-        height: 480px
     }
 
     .block-slideshow__item-image--desktop {
-        display: none
     }
 
     .block-slideshow__item-image--mobile {
@@ -8140,8 +8138,8 @@ select.form-control-sm {
 
 @media (max-width:474px) {
     .block-slideshow__item {
-        padding: 28px 32px 32px;
-        height: 360px
+        padding: 0;
+        height: 200px;
     }
 
     .block-slideshow__item-offer {
