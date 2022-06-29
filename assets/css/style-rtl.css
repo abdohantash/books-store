@@ -20385,6 +20385,10 @@ width: 100%;
     .block-space--layout--divider-xs {
         height: 15px;
     }
+
+    .block-banners__list {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width:440px) {
